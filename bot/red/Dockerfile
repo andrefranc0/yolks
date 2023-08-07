@@ -6,6 +6,8 @@ RUN           mkdir -p /usr/share/man/man1
 RUN           apt update \
               && apt -y upgrade \
               && apt -y install \
+					 gcc \
+	  				 python3-dev \
                      git \
                      ca-certificates \
                      dnsutils \
